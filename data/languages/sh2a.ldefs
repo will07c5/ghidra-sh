@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- See Relax specification: Ghidra/Framework/SoftwareModeling/data/languages/language_definitions.rxg -->
+
+<language_definitions>
+   <language processor="SH2a"
+            endian="big"
+            size="32"
+            variant="default"
+            version="1.0"
+            slafile="sh2a.sla"
+            processorspec="sh2a.pspec"
+            id="sh2a:BE:32:default">
+    <description>SH2A Language Module</description>
+    <compiler name="default" spec="sh2a.cspec" id="default"/>
+  </language> 
+</language_definitions>
