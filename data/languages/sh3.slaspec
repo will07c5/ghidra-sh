@@ -1,2 +1,2 @@
-@define SH2A ""
+@define SH3 ""
 @include "sh.sinc"
