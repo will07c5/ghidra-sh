@@ -3,15 +3,48 @@
 <!-- See Relax specification: Ghidra/Framework/SoftwareModeling/data/languages/language_definitions.rxg -->
 
 <language_definitions>
-   <language processor="SH2a"
+   <language processor="SH1"
+            endian="big"
+            size="32"
+            variant="default"
+            version="1.0"
+            slafile="sh1.sla"
+            processorspec="sh.pspec"
+            id="sh1:BE:32:default">
+    <description>SH2A Language Module</description>
+    <compiler name="default" spec="sh.cspec" id="default"/>
+  </language> 
+   <language processor="SH2"
+            endian="big"
+            size="32"
+            variant="default"
+            version="1.0"
+            slafile="sh2.sla"
+            processorspec="sh.pspec"
+            id="sh2:BE:32:default">
+    <description>SH2A Language Module</description>
+    <compiler name="default" spec="sh.cspec" id="default"/>
+  </language> 
+   <language processor="SH2A"
             endian="big"
             size="32"
             variant="default"
             version="1.0"
             slafile="sh2a.sla"
-            processorspec="sh2a.pspec"
+            processorspec="sh.pspec"
             id="sh2a:BE:32:default">
     <description>SH2A Language Module</description>
-    <compiler name="default" spec="sh2a.cspec" id="default"/>
+    <compiler name="default" spec="sh.cspec" id="default"/>
+  </language> 
+   <language processor="SH3"
+            endian="big"
+            size="32"
+            variant="default"
+            version="1.0"
+            slafile="sh3.sla"
+            processorspec="sh.pspec"
+            id="sh3:BE:32:default">
+    <description>SH3 Language Module</description>
+    <compiler name="default" spec="sh.cspec" id="default"/>
   </language> 
 </language_definitions>
